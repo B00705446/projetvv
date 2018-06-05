@@ -77,10 +77,10 @@ body {
     padding-top: 102px;
 }
 
-.mb-2 {
+.row {
     padding-top: 40px;
 }
 
-.card-body d-flex flex-column align-items-start {
+.card-body {
     padding-top: 30px;
 }
