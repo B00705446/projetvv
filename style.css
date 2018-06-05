@@ -77,6 +77,10 @@ body {
     padding-top: 102px;
 }
 
-.row mb-2 {
+.mb-2 {
     padding-top: 40px;
+}
+
+.card-body d-flex flex-column align-items-start {
+    padding-top: 30px;
 }
