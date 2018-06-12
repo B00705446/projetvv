@@ -2,6 +2,7 @@
     width: 100%;
     background-color: rgb(108, 170, 124);
     position: fixed;
+    z-index: 2;
 }
 
 .header a {
@@ -79,14 +80,26 @@ body {
 
 .row {
     margin-top: 40px;
+    z-index: 1;
 }
 
-.card-body {
-    margin-top: 30px;
-}
 
 #Gombos {
     object-fit: contain;
     height: 205px;
-    float: left;
+}
+
+#Renkon {
+    object-fit: contain;
+    height: 205px;
+}
+
+#Pak-Choi {
+    object-fit: contain;
+    height: 205px;
+}
+
+#Luffa {
+    object-fit: contain;
+    height: 205px;
 }
