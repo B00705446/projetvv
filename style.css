@@ -88,4 +88,5 @@ body {
 #Gombos {
     object-fit: contain;
     height: 205px;
+    float: left;
 }
