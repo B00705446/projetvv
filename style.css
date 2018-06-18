@@ -1,8 +1,8 @@
 .header {
+    position: fixed;
     width: 100%;
     background-color: rgb(108, 170, 124);
-    position: fixed;
-    z-index: 5;
+    z-index: 2;
 }
 
 .header a {
@@ -22,7 +22,7 @@
 
 .btn-group {
     background-color: rgb(108, 170, 124);
-    padding-left: 300px;
+    padding-left: 350px;
 }
 
 .bbody {
@@ -48,8 +48,7 @@ html {
   }
 
 body {
-    margin-bottom: 40px; /* Margin bottom by footer height */
-    background-color: #ecf9ec;
+    margin-bottom: 60px; /* Margin bottom by footer height */
   }
 
 .footer {
@@ -79,74 +78,67 @@ body {
     padding-top: 102px;
 }
 
+
+/* Menu */
+
 .row {
-    z-index: 1;
-    margin-top: 40px;
-}
-
-
-#Gombos {
-    object-fit: contain;
-    height: 205px;
-    float: right;
-}
-
-#Renkon {
-    object-fit: contain;
-    height: 205px;
-}
-
-#Pakchoi {
-    object-fit: contain;
-    height: 205px;
-}
-
-#Luffa {
-    object-fit: contain;
-    height: 205px;
-}
-
-.legumes {
-    margin: auto;
-}
-
-.notrehistoire {
-    position: absolute;
-    top: 50px;
-    right: 0 px;
-}
-
-#slides {
     position: relative;
-    height: 200px;
-    padding: 0px;
-    margin: 0px;
-    list-style-type: none;
-}
-
-.slide {
-    object-fit: contain;
-    padding-top: 100px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 0;
+    padding: 8rem 1rem;
     z-index: 1;
-
-    -webkit-transition: opacity 1s;
-    -moz-transition: opacity 1s;
-    -o-transition: opacity 1s;
-    transition: opacity 1s;
 }
 
-.showing {
-    opacity: 1;
-    z-index: 2;
+
+.card-title {
+    font-family: "Apple Chancery";
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2;
 }
 
-#voyage {
-    width: 600px;
-    margin: auto;
+.card-text {
+    font-family: "Papyrus";
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.card-bigtext {
+    font-family: "Papyrus";
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.btn-outline-success {
+    margin-left: 100px;
+}
+
+.active {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.carousel {
+    margin-right: 100px;
+}
+
+.h3 {
+    font-family: "Khmer MN";
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.btn-block{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(108, 170, 124);
+    background-size: cover;
+    border-color: white;
+
 }
