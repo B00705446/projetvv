@@ -48,7 +48,8 @@ html {
   }
 
 body {
-    margin-bottom: 60px; /* Margin bottom by footer height */
+    margin-bottom: 40px; /* Margin bottom by footer height */
+    background-color: #ecf9ec;
   }
 
 .footer {
@@ -109,7 +110,12 @@ body {
     margin: auto;
 }
 
-  
+.notrehistoire {
+    position: absolute;
+    top: 50px;
+    right: 0 px;
+}
+
 #slides {
     position: relative;
     height: 200px;
