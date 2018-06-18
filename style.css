@@ -1,8 +1,8 @@
 .header {
-    position: fixed;
     width: 100%;
     background-color: rgb(108, 170, 124);
-    z-index: 2;
+    position: fixed;
+    z-index: 5;
 }
 
 p {
@@ -26,7 +26,7 @@ p {
 
 .btn-group {
     background-color: rgb(108, 170, 124);
-    padding-left: 350px;
+    padding-left: 300px;
 }
 
 .bbody {
@@ -53,7 +53,8 @@ html {
   }
 
 body {
-    margin-bottom: 60px; /* Margin bottom by footer height */
+    margin-bottom: 40px; /* Margin bottom by footer height */
+    background-color: #ecf9ec;
   }
 
 .footer {
@@ -83,66 +84,75 @@ body {
     padding-top: 102px;
 }
 
-
-/* Menu */
-
 .row {
-    position: relative;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-bottom: 0;
-    padding: 8rem 1rem;
     z-index: 1;
+    margin-top: 40px;
 }
 
 
-.card-title {
-    font-family: "Apple Chancery";
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    line-height: 2;
+#Gombos {
+    object-fit: contain;
+    height: 205px;
+    float: right;
 }
 
-.card-text {
-    font-family: "Papyrus";
-    font-size: 16px;
-    text-align: center;
-
+#Renkon {
+    object-fit: contain;
+    height: 205px;
 }
 
-.card-bigtext {
-    font-family: "Papyrus";
-    font-size: 26px;
-    text-align: center;
-    font-weight: bold;
-
+#Pakchoi {
+    object-fit: contain;
+    height: 205px;
 }
 
-.btn-outline-success {
-    margin-left: 100px;
+#Luffa {
+    object-fit: contain;
+    height: 205px;
 }
 
-.active {
-    margin-left: 100px;
-    margin-right: 100px;
+.legumes {
+    margin: auto;
 }
 
-.carousel {
-    margin-right: 100px;
+.notrehistoire {
+    position: absolute;
+    top: 50px;
+    right: 0 px;
 }
 
-.h3 {
-    font-family: "Khmer MN";
-    font-size: 30px;
-    text-align: center;
-
+#slides {
+    position: relative;
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
 }
 
-.btn-block{
-    margin-left: 100px;
-    margin-right: 100px;
-    background-color: rgb(108, 170, 124);
-    background-size: cover;
-    border-color: white;
+.slide {
+    object-fit: contain;
+    padding-top: 100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
 }
+
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+
+#voyage {
+    width: 600px;
+    margin: auto;
+}
+
