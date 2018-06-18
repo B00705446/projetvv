@@ -5,10 +5,6 @@
     z-index: 5;
 }
 
-p {
-    font-family: "Khmer MN";
-}
-
 .header a {
     float: left;
     display: block;
@@ -32,7 +28,7 @@ p {
 .bbody {
 margin-left: 100px;
 margin-right: 100px;
-font-family: "Khmer MN";
+font-family: "Sedwick Ave";
 }
 
 .jumbotron {
@@ -86,7 +82,6 @@ body {
 
 .row {
     z-index: 1;
-    margin-top: 40px;
 }
 
 
@@ -156,3 +151,11 @@ body {
     margin: auto;
 }
 
+#notrehistoire {
+height: 550px;
+}
+
+#notrehistoire1 {
+    font-size: 2rem;
+    font-family: Georgia;
+}
