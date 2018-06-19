@@ -1,7 +1,6 @@
 .header {
     width: 100%;
     background-color: rgb(108, 170, 124);
-    position: fixed;
     z-index: 5;
 }
 
@@ -28,6 +27,7 @@
 .bbody {
 margin-left: 100px;
 margin-right: 100px;
+margin-top: 40px;
 }
 
 .jumbotron {
@@ -116,6 +116,25 @@ body {
 
 #map {
     position: relative;
-    margin-top: 100px;
-    margin-left: 500px;
+    margin-left: 30px;
+    margin-bottom: 35px;
+}
+
+div.background {
+    background: url(klematis.jpg) repeat;
+    width: 450px;
+}
+
+div.transbox {
+    background-color: #ffffff;
+    padding: 1px;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    width: 450px;
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
 }
