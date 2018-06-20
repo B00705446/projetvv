@@ -49,7 +49,7 @@ html {
   }
 
 body {
-    margin-bottom: 60px; /* Margin bottom by footer height */
+    margin-bottom: 30px; /* Margin bottom by footer height */
     background-color: #ecf9ec;
   }
 
@@ -57,10 +57,14 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 40px; /* Set the fixed height of the footer here */
-    line-height: 40px; /* Vertically center the text there */
+    height: 30px; /* Set the fixed height of the footer here */
+    line-height: 30px; /* Vertically center the text there */
     background-color: #f5f5f5;
-  }
+}
+
+.text-muted {
+    font-size: 12px;
+}
   
 .display-4 {
     color: white;
@@ -150,11 +154,11 @@ body {
 }
 
 .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
+  background: #3B5998;
+  color: white;
+}
+
 .fa-instagram {
-      background: #125688;
-      color: white;
-    }
+    background: #125688;
+    color: white;
+}

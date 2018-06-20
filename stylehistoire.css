@@ -46,8 +46,6 @@ body {
     margin-bottom: 30px; /* Margin bottom by footer height */
     background-color: #ecf9ec;
     font-family: "Gafata";
-    font-weight: bold;
-    font-size: 30px;
   }
 
 .footer {
@@ -201,7 +199,7 @@ p {
 #p4 {
     position: absolute;
     bottom: 20px;
-    left: 250px;
+    left: 200px;
     color: #e0e0d1;
 }
 
@@ -228,5 +226,5 @@ p {
 .fa-instagram {
     background: #125688;
     color: white;
-  }
+}
   
