@@ -45,6 +45,9 @@ html {
 body {
     margin-bottom: 30px; /* Margin bottom by footer height */
     background-color: #ecf9ec;
+    font-family: "Gafata";
+    font-weight: bold;
+    font-size: 30px;
   }
 
 .footer {
@@ -158,14 +161,20 @@ h3 {
     bottom: 300px;
     left: 40px;
     opacity: 0.5;
+    font-family: "Actor";
+    font-weight: bold;
+    font-size: 30px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 26px;
+    font-family: "Gafata";
+    font-weight: bold;
 }
 
 #decouvrir {
     font-style: italic;
+    font-style: bold;
 }
 
 #p1 {
