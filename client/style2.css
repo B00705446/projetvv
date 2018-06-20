@@ -133,3 +133,15 @@ IMG.displayed {
 .nav-item.dropdown a{
     align-self: center;
 }
+
+.dropdown-item {
+    background-color: #ecf9ec;
+}
+
+.couleur {
+    color:rgb(108, 170, 124);
+}
+
+.couleur2 {
+    color:black;
+}
