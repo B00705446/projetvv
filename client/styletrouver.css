@@ -150,3 +150,23 @@ h4 {
 p {
     text-align: center;
 }
+
+IMG.displayed {
+    display: block;
+    margin: 0 auto;
+    margin-top: 7.5px;
+
+}
+
+.nav-item.dropdown {
+    display: flex;
+    width: 120px;
+    position: absolute;
+    height: 75px;
+
+}
+
+.nav-item.dropdown a{
+    align-self: center;
+}
+

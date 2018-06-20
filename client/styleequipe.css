@@ -1,7 +1,9 @@
 .header {
     width: 100%;
+    margin: auto;
     background-color: rgb(108, 170, 124);
     position: fixed;
+
 }
 
 .header a {
@@ -11,6 +13,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
 }
 
 /* Change background on mouse-over */
@@ -111,7 +114,30 @@ body {
     color: white;
   }
   
-.fa-instagram {
-    background: #125688;
-    color: white;
-}
+  .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+
+    IMG.displayed {
+        display: block;
+        margin: 0 auto;
+        margin-top: 7.5px;
+    
+    }
+    
+    .nav-item.dropdown {
+        display: flex;
+        width: 120px;
+        position: absolute;
+        height: 75px;
+    
+    }
+    
+    .nav-item.dropdown a {
+        align-self: center;
+    }
+    
+    .dropdown-item {
+        background-color: #ecf9ec;
+    }
