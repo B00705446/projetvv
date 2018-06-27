@@ -50,7 +50,9 @@ html {
 
 body {
     margin-bottom: 60px; /* Margin bottom by footer height */
+    background-color: #ecf9ec;
   }
+
 
 .footer {
 position: absolute;
@@ -117,6 +119,7 @@ hr.style8 {
 hr.style9 { overflow: visible; /* For IE */ padding: 0; border: none; border-top: medium double #333; color: #333; text-align: center;}
 hr.style9:after { content: "⬖"; font:calibri; display: inline-block; position: relative; top: -0.7em; font-size: 1.5em; padding: 0 0.25em; background: white; }
 
+
 IMG.displayed {
     display: block;
     margin: 0 auto;
@@ -134,4 +137,16 @@ IMG.displayed {
 
 .nav-item.dropdown a{
     align-self: center;
+}
+
+.dropdown-item {
+    background-color: #ecf9ec;
+}
+
+.couleur {
+    color:rgb(108, 170, 124);
+}
+
+.couleur2 {
+    color:black;
 }
